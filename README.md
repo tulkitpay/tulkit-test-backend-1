@@ -7,7 +7,7 @@ Este proyecto requiere el uso de yarn. Para levantarlo, primero instalar las dep
 
 ### Instrucciones ###
 
-1. Crear una base de datos en memoria, el cual almacenara objetos que representan a un candidato y los skills que posee:
+1. Crear una base de datos en memoria, la cual almacenara objetos que representan a un candidato y los skills que posee:
 
 candidato:
 
@@ -29,6 +29,6 @@ candidato:
 * Controlar el caso en el que no se envíe ningún skill, devolviendo un status code adecuado.
 * Considerar el caso de no encontrar ningún candidato.
 
-Ambos endpoints deberán demostrar manejo de excepciones, imprimiendo un mensaje en la consola y devolviendo el status code adecuado.
+Ambos endpoints deberán demostrar manejo de excepciones, imprimiendo un mensaje en la consola y devolviendo un status code adecuado.
 
-Se evaluará claridad del desarrollo, comprensión de convenciones REST y uso del lenguaje.
+Se evaluará claridad del desarrollo, comprensión de convenciones REST y uso del lenguaje. El uso de status codes responderá al criterio de cada uno.
