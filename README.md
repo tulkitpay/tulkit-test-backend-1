@@ -19,6 +19,7 @@ candidato:
 
 
 2. Modificar el endpoint POST de manera que reciba candidatos y los almacene en la base de datos creada en el paso 1. La aplicación deberá generar el id de cada usuario. 
+
 * En caso de éxito, devolver el status code adecuado. 
 * Controlar el caso en que el body del request esté vacío retornando un status code adecuado.
 
