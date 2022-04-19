@@ -1,29 +1,29 @@
-# README #
+# Descripción #
+Este repositorio contiene un archivo index.ts, dentro encontraremos un pequeño servidor web construido con express. Se han incluido dos endpoints sobre los cuales vamos a trabajar.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# How To Execute #
 
-### What is this repository for? ###
+Este proyecto requiere el uso de yarn. Para levantarlo, primero instalar las dependencias usando el comando yarn, luego correr el script "yarn start"
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Instrucciones ###
 
-### How do I get set up? ###
+1. Crear una base de datos en memoria, el cual almacenara objetos que representan a un candidato y los skills que posee:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+{
+    "id": "0facd8d3-4361-4ab7-8921-3d57a73b796a",
+    "name": "Diana Lenz",
+    "skills": ["scala","golang"]
+}
 
-### Contribution guidelines ###
+2. Modificar el endpoint POST de manera que reciba candidatos y los almacene en la base de datos creada en el paso 1. La aplicación deberá generar el id de cada usuario. 
+* En caso de éxito, devolver el status code adecuado. 
+* Controlar el caso en que el body del request esté vacío retornando un status code adecuado.
 
-* Writing tests
-* Code review
-* Other guidelines
+3. Modificar el endpoint GET de manera que reciba una lista de skills y devuelva el candidato más adecuado. 
+* El candidato más adecuado es aquel que cuenta con la mayor cantidad de skills de la lista enviada.
+* Controlar el caso en el que no se envíe ningun skill, devolviendo un status code adecuado.
+* Considerar el caso de no encontrar ningún candidato.
 
-### Who do I talk to? ###
+Ambos endpoints deberán demostrar manejo de excepciones, imprimiendo un mensaje en la consola y devolviendo el status code adecuado.
 
-* Repo owner or admin
-* Other community or team contact
+Se evaluará claridad del desarrollo, comprensión de convenciones REST y uso del lenguaje.
