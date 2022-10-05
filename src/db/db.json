@@ -1,0 +1,37 @@
+{
+  "candidates": [
+    {
+      "id": "0facd8d3-4361-4ab7-8921-3d57a73b796a",
+      "name": "Diana Lenz",
+      "skills": [
+        "scala",
+        "golang"
+      ]
+    },
+    {
+      "id": "cedc66c9-b955-49e1-ae68-7e69a102bee9",
+      "name": "Victor Garcia De Lugo",
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "Blockchain"
+      ]
+    },
+    {
+      "id": "f116bf73-dd79-47d8-9d3a-c59460b10106",
+      "name": "Luiss Lugo",
+      "skills": [
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "0a92562d-13cd-44c5-9eee-e267f85be2db",
+      "name": "Nallely Lugo",
+      "skills": [
+        "Go",
+        "PHP"
+      ]
+    }
+  ]
+}
